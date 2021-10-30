@@ -3,7 +3,7 @@ A collabrative latex program of Microphotonics in Ugent by Group 2 2021 semester
 
 # How to pull the remote repository into local
 First you need a ssh key to establish links with my github account.
-* Input `ssh-keygen -t rsa -c emailname@email.com` in terminal(replace emailname@email.com with your own email).
+* Input `ssh-keygen -t rsa -C emailname@email.com` in terminal(replace emailname@email.com with your own email).
 We don't need a password so tap enter key straightly util questions ending.
 * `cat /Users/luwen/.ssh/id_rsa.pub` to print your ssh key.
 * Copy what has shown at the last step and send it to me. I'll add your ssh key to my github acccount. 
