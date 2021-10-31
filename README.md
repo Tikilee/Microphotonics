@@ -17,7 +17,7 @@ The following codes will run in the terminal or git bash.
 * `cd path`. Go to the path where you want to establish your local repository.
 (Notice again that don't just put path but the real path in your computer like `cd /Users/luwen/dir`)
 THe repository will be established under the last level file directory.
-* `git clone git@github.com:Tikilee/Microphotonics.git`. Now you clone the master branch of the remote repository.
+* `git clone -b master git@github.com:Tikilee/Microphotonics.git`. Now you clone the master branch of the remote repository.
 
 # Basic operation of Git
 * `git branch` View which branch you are in now.
