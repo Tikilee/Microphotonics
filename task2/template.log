@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.18)  1 NOV 2021 06:33
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.10.18)  1 NOV 2021 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -887,7 +887,8 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip88
 \f@nch@O@olf=\skip89
 \f@nch@O@orf=\skip90
-) (./template.aux)
+)
+No file template.aux.
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -900,7 +901,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 53.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 53.
@@ -930,9 +931,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 53.
 LaTeX Info: Redefining \pageref on input line 53.
 LaTeX Info: Redefining \nameref on input line 53.
- (./template.out) (./template.out)
 \@outlinefile=\write4
 \openout4 = `template.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -942,7 +946,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
 (scrartcl)           before \begin{document} on input line 53.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
@@ -1010,25 +1014,31 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 13.67995pt on input line 81.
- (./template.toc
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
 \tf@toc=\write5
 \openout5 = `template.toc'.
 
  [2]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 95.
+
+
+LaTeX Warning: Reference `eq1' on page 1 undefined on input line 95.
+
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 96.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+
+LaTeX Warning: Reference `name1' on page 1 undefined on input line 103.
+
 File: img/1.png Graphic file (type bmp)
 <img/1.png>
 File: img/2.png Graphic file (type bmp)
@@ -1051,6 +1061,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 175.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 175.
+
+LaTeX Warning: Reference `fig1.1' on page 3 undefined on input line 177.
+
 File: img/1_Fra_0.01.bmp.pdf Graphic file (type pdf)
 <use img/1_Fra_0.01.bmp.pdf>
 File: img/1_Fra_0.029.bmp.pdf Graphic file (type pdf)
@@ -1076,10 +1089,17 @@ File: img/1_Fre_-2.bmp.pdf Graphic file (type pdf)
 <use img/1_Fre_-2.bmp.pdf>
 File: img/1_Fre_-1.bmp.pdf Graphic file (type pdf)
 <use img/1_Fre_-1.bmp.pdf>
- [4]
+
+
+LaTeX Warning: Reference `fig1.2' on page 4 undefined on input line 215.
+
+[4]
+
+LaTeX Warning: Reference `fig1.4' on page 5 undefined on input line 227.
+
 File: img/1_3.png Graphic file (type bmp)
 <img/1_3.png>
- [5]
+[5]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uline' on input line 239.
@@ -1102,10 +1122,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uline' on input line 289.
 
+
+LaTeX Warning: Reference `fig4.1' on page 8 undefined on input line 293.
+
+
+LaTeX Warning: Reference `fig4.2' on page 8 undefined on input line 294.
+
 File: img/4_1.png Graphic file (type bmp)
 <img/4_1.png>
 File: img/4_2.png Graphic file (type bmp)
 <img/4_2.png>
+
+LaTeX Warning: Reference `fig4.3' on page 8 undefined on input line 311.
+
+
+LaTeX Warning: Reference `fig4.4' on page 8 undefined on input line 313.
+
 Missing character: There is no ’ ("2019) in font phvr8t!
 File: img/4_3.png Graphic file (type bmp)
 <img/4_3.png>
@@ -1116,22 +1148,1557 @@ File: img/4_4.png Graphic file (type bmp)
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uline' on input line 332.
 
-[10]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uline' on input line 352.
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\bf'.
 
-[11] (./template.aux)
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Undefined control sequence.
+<argument> ...ce of $2\rm e -5 \rm m $in \terxtit 
+                                                  {aperture_2_spot.m}. The p...
+l.340 ... approximately the aperture of the lens.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Missing $ inserted.
+<inserted text> 
+                $
+l.340 ... approximately the aperture of the lens.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Double subscript.
+<argument> ...e -5 \rm m $in \terxtit {aperture_2_
+                                                  spot.m}. The parameter is ...
+l.340 ... approximately the aperture of the lens.}
+                                                  
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Extra }, or forgotten $.
+<argument> ...m m $in \terxtit {aperture_2_spot.m}
+                                                  . The parameter is $\lambd...
+l.340 ... approximately the aperture of the lens.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Missing $ inserted.
+<inserted text> 
+                $
+l.340 ... approximately the aperture of the lens.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+LaTeX Warning: Reference `resolution' on page 10 undefined on input line 340.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ... approximately the aperture of the lens.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+LaTeX Warning: Reference `resolution' on page 10 undefined on input line 340.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Missing } inserted.
+<inserted text> 
+                }
+l.340 ... approximately the aperture of the lens.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:340: Undefined control sequence.
+<argument> ...ce of $2\rm e -5 \rm m $in \terxtit 
+                                                  {aperture_2_spot.m}. The p...
+l.340 ... approximately the aperture of the lens.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: task5-6_pic/2a.bmp Graphic file (type bmp)
+<task5-6_pic/2a.bmp>
+File: task5-6_pic/2b.png Graphic file (type bmp)
+<task5-6_pic/2b.png>
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:346: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:346: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:346: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:346: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+Overfull \hbox (111.08868pt too wide) in paragraph at lines 355--355
+[] []\T1/phv/b/n/10.95 Co-her-ent ligt:It pro-vides two point lights at a dis-tance of $\OT1/cmr/m/n/10.95 2e \OMS/cmsy/m/n/10.95 ^^@ \OT1/cmr/m/n/10.95 5m$\T1/phv/b/n/10.95 in aperture$[][]\OML/cmm/m/it/10.95 pot:m:Theparameteris$$^^U \OT1/cmr/m/n/10.95 = 1550[]z$\T1/phv/b/n/10.95 ,$\OML/cmm/m/it/10.95 f \OT1/cmr/m/n/10.95 = 30[]$\T1/phv/b/n/10.95 .
+ []
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+LaTeX Warning: Reference `resolution' on page 10 undefined on input line 355.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:355: Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 ...light interferes in overlapping regions.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+LaTeX Warning: File `task5-6_pic/3a.bmp' not found on input line 358.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:358: Unable to load picture or PDF file 'task5-6_pic/3a.bmp'.
+<to be read again> 
+                   }
+l.358 ...width=0.35\textwidth]{task5-6_pic/3a.bmp}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:358: Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.358 ...width=0.35\textwidth]{task5-6_pic/3a.bmp}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: task5-6_pic/3a.bmp Graphic file (type bmp)
+<task5-6_pic/3a.bmp>
+File: task5-6_pic/3b.png Graphic file (type bmp)
+<task5-6_pic/3b.png>
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:361: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:361: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:361: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:361: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...mage when aperture radius is $1\rm {cm}$}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+Runaway argument?
+{To simplify the calculation, we consider the case of one spot incide\ETC.
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Paragraph ended before \ttl@straight@i was complete.
+<to be read again> 
+                   \par 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: Reference `ocp' on page 10 undefined on input line 381.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Package amsmath Error: \begin{aligned} allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing $ inserted.
+<inserted text> 
+                $
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Class scrartcl Error: undefined old font command `\rm'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\rm' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\rm', e.g., by `\mathrm `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\rm' yourself,
+you should replace it, e.g., by `\mathrm '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Argument of \label has an extra }.
+<inserted text> 
+                \par 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Paragraph ended before \label was complete.
+<to be read again> 
+                   \par 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing $ inserted.
+<inserted text> 
+                $
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing } inserted.
+<inserted text> 
+                }
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing } inserted.
+<inserted text> 
+                }
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I'm guessing that you meant to end an alignment here.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+/Users/luwen/Projects/latex/MicroPhotonics/task2/template.tex:381: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.381 ...m}$ when aperture radius is $2\rm {cm}$.}
+                                                  
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 27181 strings out of 476919
- 501843 string characters out of 5821839
- 940551 words of memory out of 5000000
- 46693 multiletter control sequences out of 15000+600000
+ 27229 strings out of 476919
+ 502622 string characters out of 5821839
+ 935282 words of memory out of 5000000
+ 46725 multiletter control sequences out of 15000+600000
  433099 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  113i,11n,116p,10795b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (13 pages).
+Output written on template.pdf (11 pages).
