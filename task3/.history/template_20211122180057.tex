@@ -124,9 +124,8 @@ The actual TE-mode exists one small peak each side, but the slab-mode not.
      \label{fig1.2}
 \end{figure} 
 \textbf{Other modes:} It is difficult to find some similarities among them.
-
 \textbf{The validity of the effective index method:}
-It is available when studying the fundamental mode of the center 
+It is available when studing the fundamental mode of the center 
 (or ignoring the boundary effect), or studying the interface mode.
 %=================================================================================================
 \pagebreak
@@ -144,7 +143,7 @@ to the bent waveguide.
 \begin{figure}[H]
     \centering
      \includegraphics[width=0.7\textwidth]{img/fig2.1.png}
-     \caption{Propagation of a pulse through the system}
+     \caption{Here to write the caption of the figure.}
      \label{fig2.1}
 \end{figure} 
 %-------------------------------------------------------------------------------------------------
@@ -152,13 +151,13 @@ to the bent waveguide.
 %-------------------------------------------------------------------------------------------------
 With a continuous wave input,
 the behavior of the splitter is shown in figure \ref{fig2.2}.
-The upper row is linear,
-and the lower row is logarithmic.
+The first row is linear,
+and the second row is the logarithmic.
 It is obvious that the coupler is not very wavelength-dependent.
 \begin{figure}[H]
     \centering
      \includegraphics[width=1\textwidth]{img/fig2.2.png}
-     \caption{P of Field Monitor-object at 5 different wavelength: linear(upper); logarithmic (lower)}
+     \caption{Here to write the caption of the figure.}
      \label{fig2.2}
 \end{figure} 
 %-------------------------------------------------------------------------------------------------
@@ -171,7 +170,7 @@ $r$ and gap-distance is linear positive correlation.
 \begin{figure}[H]
     \centering
      \includegraphics[width=0.7\textwidth]{img/fig2.3.png}
-     \caption{The relationship between $r$ and gap distance}
+     \caption{Here to write the caption of the figure.}
      \label{fig2.3}
 \end{figure} 
 %=================================================================================================
@@ -194,13 +193,13 @@ the T distribution of dft\_wg\_output. The average FSR of two initial FSR is $30
 \begin{figure}[H]
     \centering
      \includegraphics[width=0.5\textwidth]{img/fig3.1.png}
-     \caption{T distribution of dft\_wg\_output}
+     \caption{Here to write the caption of the figure.}
      \label{fig3.1}
 \end{figure} 
 %-------------------------------------------------------------------------------------------------
 \subsection{}
 %-------------------------------------------------------------------------------------------------
-When reducing the waveguide range to $[1530\mathrm{nm},1550\mathrm{nm}]$, 
+When educing the waveguide range to $[1530\mathrm{nm},1550\mathrm{nm}]$, 
 T distribution of dft\_wg\_output is shown in Fig \ref{fig3.2}, 
 $\lambda_{res}=1538.03\mathrm{nm}$. 
 T of dft\_wg\_output in bend\_coupler.fsp at $\lambda_{res}$ is $0.905347$. 
@@ -209,33 +208,26 @@ For $n_g=3.109$, the FWHM can be calculated by
     \mathrm{FWHM}=\frac{\left(1-r^{2}\right) \lambda^{2} r e s}{\pi n g L r}
     \label{eq4}
 \end{equation}
-and finally we get $\mathrm{FWHM}=958.6\mathrm{nm}$.
+and finally we get $FWHM=958.6\mathrm{nm}$.
 \begin{figure}[H]
     \centering
      \includegraphics[width=0.5\textwidth]{img/fig3.2.png}
-     \caption{T distribution of dft\_wg\_output with a limited wavelength range}
+     \caption{Here to write the caption of the figure.}
      \label{fig3.2}
 \end{figure}  
 %-------------------------------------------------------------------------------------------------
-\subsection{}
+\subsection{Formulas FSR FWHM $\lambda_{res}$}
 %-------------------------------------------------------------------------------------------------
-From text we know
-\begin{equation}
-    \mathrm{FSR}=\frac{\lambda^{2}}{n_{g} L}
-\end{equation}
-\begin{equation}
-    \mathrm{FWHM}=\frac{\left(1-r^{2} a\right) \lambda_{r e s}^{2}}{\pi n_{g} L r \sqrt{a}}
-\end{equation}
 Change ring-radius first. 
 As it increasing, one of the $\lambda_{res}$ should be at about $1530\mathrm{nm}$, 
 FSR should be larger than 27nm, and FWHM may decrease. 
 Find a suitable ring-radius, then increase the gap distance to make the FWHM lower 
 to about 90pm.
 
-After trying different ring-radius, finally we found $\mathrm{ring-radius}=4.26$ is siutable, 
+After trying different ring-radius, finally we found ring-radius=4.26 is siutable, 
 because one  of the $\lambda_{res}$ is $1.53172\mathrm{nm}$, and FSR is $29.32\mathrm{nm}$. 
 Then open bend\_coupler.fsp to find an applicable gap distance, 
-which can decrease FWHM to about $90\mathrm{pm}$. As gap distance becomes larger,
+which can decrease FWHM to about $90pm$. As gap distance becomes larger,
  T become larger, and FWHM will be smaller. When gap distance$=0.26\mathrm{um}$, $r^2=0.990881$ at $\lambda_{res}$, 
  and FWHM=$83.5\mathrm{pm}$.To calculate FWHM, we use
  \begin{equation}
@@ -244,22 +236,7 @@ which can decrease FWHM to about $90\mathrm{pm}$. As gap distance becomes larger
 \end{equation}
  to avoid calculating $n_g$.
 
- Go back to the ring\_add\_drop.fsp, simulate with $\mathrm{gap}=0.26\mathrm{um}$, 
- $\mathrm{ring-radius}=4.26\mathrm{um}$. Comparing to the situation at $\mathrm{gap}=0.125\mathrm{um}$ 
- and $\mathrm{ring-radius}=4.26\mathrm{um}$, there is no apparent difference at $\lambda_{res}$, 
- which is shown in Fig \ref{fig3.3}. The red curve is $\mathrm{gap}=0.26\mathrm{um}$ and 
- $\mathrm{ring-radius}=4.26\mathrm{um}$, and the green curve is 
- $\mathrm{gap}=0.125\mathrm{um}$ and 
- $\mathrm{ring-radius}=4.26\mathrm{um}$
- \begin{figure}[H]
-    \centering
-     \includegraphics[width=0.5\textwidth]{img/fig3.3.png}
-     \caption{T distribution of dft\_wg\_output at $\mathrm{gap}=0.125\mathrm{um}$}
-     \label{fig3.3}
-\end{figure}  
-In conclusion, when $\mathrm{gap}=0.125\mathrm{um}$ and 
-$\mathrm{ring-radius}=4.26\mathrm{um}$, 
-the add-drop ring resonator meets the above conditions.
+ Go back to the ring\_add\_drop.fsp, simulate with $gap=0.26um ,ring-radius=4.26um.Comparing to the situation at gap=0.125um ,ring-radius=4.26um,there is no apparent difference at  ,which is shown in Figure 3.3.The red curve is gap=0.26um ,ring-radius=4.26um,and the green curve is gap=0.125um ,ring-radius=4.26um.
 %=================================================================================================
 \pagebreak
 
