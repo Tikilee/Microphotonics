@@ -268,19 +268,21 @@ slit diffraction. We can see it from
 %-------------------------------------------------------------------------------------------------
 \section{\uline{TASK 3}}
 %-------------------------------------------------------------------------------------------------
-Here comes some text. This text makes use of 1.5 line spacing. 
-%-------------------------------------------------------------------------------------------------
-\subsection{SUB-CHAPTER}
-%-------------------------------------------------------------------------------------------------
-Here comes some text. This text makes use of 1.5 line spacing. 
-%-------------------------------------------------------------------------------------------------
-\subsection{SUB-CHAPTER}
-%-------------------------------------------------------------------------------------------------
-Here comes some text. This text makes use of 1.5 line spacing. 
-%-------------------------------------------------------------------------------------------------
-\subsection{SUB-CHAPTER}
-%-------------------------------------------------------------------------------------------------
-Here comes some text. This text makes use of 1.5 line spacing. 
+The beamwidth function $w(z)$ can be written as
+\begin{equation}
+    w(z)=\sigma \sqrt{1+\left(\frac{z}{z_{\mathrm{R}}}\right)^{2}}
+    \label{w}
+\end{equation}
+with $z_{\mathrm{R}}=\frac{\pi \sigma ^{2}}{\lambda}$.
+
+Apply $\sigma _1 = 3.9 \times 10^{-7}m$ and $\sigma _2 = 3.63 \times 10^{-6}m$ 
+into function \ref{w}, we can draw the plot as below.
+\begin{figure}[H]
+    \centering
+     \includegraphics[width=0.6\textwidth]{img/task3_plot.png}
+     \caption{The beamwidth function of SOI and silica}
+     \label{fig3.1}
+\end{figure}
 %=================================================================================================
 \pagebreak
 %=================================================================================================
@@ -295,13 +297,13 @@ leaving only the low frequencies. In Fig\ref{fig4.2}, the 2D image also loses it
 and became blurry around the edges. 
 \begin{figure}[H]
     \centering
-     \includegraphics[width=0.8\textwidth]{img/4_1.png}
+     \includegraphics[width=0.8\textwidth]{img/7_1.png}
      \caption{Opening circular aperture graph(1d)}
      \label{fig4.1}
 \end{figure}
 \begin{figure}[H]
     \centering
-     \includegraphics[width=0.8\textwidth]{img/4_2.png}
+     \includegraphics[width=0.8\textwidth]{img/7_2.png}
      \caption{Opening circular aperture graph(2d)}
      \label{fig4.2}
 \end{figure}
@@ -314,13 +316,13 @@ In Fig\ref{fig4.4}, the 2D image retains the edges of the original image,
 with Lena’s figure clearly visible and the smooth brightness changes disappearing.
 \begin{figure}[H]
     \centering
-     \includegraphics[width=0.8\textwidth]{img/4_3.png}
+     \includegraphics[width=0.8\textwidth]{img/7_3.png}
      \caption{Blocking circular aperture graph(1d)}
      \label{fig4.3}
 \end{figure}
 \begin{figure}[H]
     \centering
-     \includegraphics[width=0.8\textwidth]{img/4_4.png}
+     \includegraphics[width=0.8\textwidth]{img/7_4.png}
      \caption{Blocking circular aperture graph(2d)}
      \label{fig4.4}
 \end{figure}
@@ -329,141 +331,7 @@ with Lena’s figure clearly visible and the smooth brightness changes disappear
 %=================================================================================================
 %CTASK 5
 %-------------------------------------------------------------------------------------------------
-\section{\uline{TASK 5}}
-\paragraph{\bf{Coherent ligt:} \\
-It provides two point lights at a distance of $2\rm e -5 \rm m $in \terxtit{aperture_2_spot.m}.
- The parameter is $\lambda=1550 \rm{nm}z$,$f=30\rm {cm}$. We use a disk aperture as filter. 
- When its radius is $2\rm {cm}$, the image is shown in Figure \ref{resolution}. Its resolution is about $23\rm {\mu m}$.
- As the radius smaller and smaller,the iamge's radius of a exact spot is larger. Then it becomes too vague to tell each other, 
- shown in Figure \ref{resolution}(b). In contrust, it becomes more clear
-  when radius is larger.The simple explanation is that it is plane wave between the two lenses, 
-  so the aperture radius can be approximately the aperture of the lens.}
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.35\textwidth]{task5-6_pic/2a.bmp}
-    \includegraphics[width=0.35\textwidth]{task5-6_pic/2b.png}
-    \caption{Obeservation of coherent light. (a) image when aperture radius is $2\rm {cm}$ 
-    (b) image when aperture radius is $1\rm {cm}$}
-    \label{resolution}
-\end{figure}
-\paragraph{\bf{Incoherent ligt:} \\
-In the same way, we use a disk aperture as filter. 
- When its radius is $1.8\rm {cm}$, the image is shown in Figure \ref{resolution}. Its resolution is about $24\rm {\mu m}$.
- It becomes indistinguishable neither as the radius of filter larger.The explanation could be the same as coherent light. \\
- \bf {Differences:}
- It seems that the image of incoherent light is more clear than that of coherent light with the same size of aperture.
- Maybe it is because light interferes in overlapping regions.}
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.35\textwidth]{task5-6_pic/3a.bmp}
-    \includegraphics[width=0.35\textwidth]{task5-6_pic/3b.png}
-    \caption{Obeservation of incoherent light. (a) image when aperture radius is $2\rm {cm}$
-     (b) image when aperture radius is $1\rm {cm}$}
-    \label{resolution}
-\end{figure}
-\paragraph{To simplify the calculation, we consider the case of one spot incidece. 
 
-As shown in Figure \ref{ocp}, we can see the light as a point source behind plane P1.
-SO it is plane wave before plane P2. For coherent light, 
-by choosing a circle aperture with radius a, the field of P3 in polar coordinates is given by,
-\begin{aligned}
-    U(r_i)&=\frac A {j\lambda f}
-    \int _{-\infty} ^{+\infty}\int_0 ^{2\pi}
-    \circ{(\frac r a )\exp{(j\frac {k} f r_i r \cos \theta)}}r\rm d r \rm d \theta \\
-    &=\frac A{j\lambda f}\frac{J_1(\frac{kar_i}{f}){\frac{kar_i}{f}}}
-    \label{5-1}
-\end{aligned}
-According to Rayleigh Criterion, resolution is
-\begin{equation}
-    r=1.22\frac{\lambda f}a
-    \label{rc}
-\end{equation}
-It is equal to $28\rm {\mu m}$ when aperture radius is $2\rm {cm}$.}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/5_system.png}
-    \caption{The optical convolution processor}
-    \label{ocp}
-\end{figure}
-\section{\uline{TASK 6}}
-\paragraph{\bf{Coherent light:} \\
-When the slit width is constant and the sinusoidal source frequency gradually increases, 
-the intensity of the image is sinusoidally distributed. 
-And the frequency of the image is the same as the source frequency. 
-When the source frequency increases to a certain threshold, the image suddenly disappears.}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/f1.bmp}
-    \caption{sin source with frequency 1cm(left); field of the image with coherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/f2.bmp}
-    \caption{sin source with frequency 2cm(left); field of the image with coherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/f2.2.bmp}
-    \caption{sin source with frequency 2.2cm(left); field of the image with coherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\paragraph{The slit width is $2\rm e-4 m$. Wavelength is 1550nm.
-    \bf{
-    Incoherent light:} \\
-The spatial frequency of the image is the same as the source. 
-As the source frequency increases, the light intensity fluctuation 
-of the image gradually decreases. When it exceeds a certain threshold, 
-it appears as uniform light.}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/if1.bmp}
-    \caption{sin source with frequency 1cm(left); field of the image with incoherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/if2.bmp}
-    \caption{sin source with frequency 2cm(left); field of the image with incoherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.8/textwidth]{task5-6_pic/if2.2.bmp}
-    \caption{sin source with frequency 2.2cm(left); field of the image with incoherent light incident(right)}
-    \label{ocp}
-\end{figure}
-\paragraph{\bf{Expalanation & Calculation:}\\
-    The image filed in the optical convolution processor is given by,
-    \begin{equation}
-        U_i(x_i,y_i)=h(x_i,y_i)*g(x_i,y_i)
-    \end{equation}
-    where g is the transmittance function in P1, h is Frouier transform
-     if P2. From the calculation of PSF, it goves,
-     \begin{equation}
-         U_i(x_i,y_i)=h'(x_i,y_i)*U_0(\frac {x_i}M,\frac{y_i}M) (\rm{(Coherent)})
-     \end{equation}
-     \begin{equation}
-        |U_i(x_i,y_i)|^2=\kappa |h'(x_i,y_i)|^2*|U_0(\frac {x_i}M,\frac{y_i}M)|^2 (\rm{(incoherent)})
-    \end{equation}
-    From these equations, we find that h is equivalent to h'. So the coherent transfer function is 
-    \begin{equation}
-        H(x,y)=rect(\frac x {l})
-    \end{equation}
-    We can see the filter as a optical system. So coherent transfer function is $H(f_x,f_y)=\mathcal F \[h(x_i,y_i)\]$.
-    So $h=sinc(lf_x)
-    \begin{equation}
-        g(x_i,y_i)=\sin{(d_x x_i)} \\
-        G(f_x,f_y)=\mathcal F (g(x_i,y_i))=\delta (f_X \PM D_X)\\
-        H(f_x,f_y)=rect(\frac {x_i} l)
-    \end{equation}
-    The frouier transform of image is 
-    \begin{equation}
-        U_i^F(f_x,f_y)=\delta(f_x-d_x)rect(\lambda f \frac {f_x} l)
-    \end{equation}
-    
-}
 %=================================================================================================
 %Appendix A
 %-------------------------------------------------------------------------------------------------
